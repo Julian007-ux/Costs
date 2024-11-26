@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  @apply bg-zinc-900 flex justify-between items-center p-4;
+}
+
+.list {
+  @apply flex justify-between items-center;
+}
+
+.item{
+    @apply text-white mr-4 font-bold ;
+}
+
+.item a{
+    @apply hover:text-yellow-400;
+}

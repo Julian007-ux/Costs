@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {
+  @apply p-[3em] bg-zinc-900 bottom-0 text-white;
+}
+
+.social_list {
+  @apply flex justify-center;
+}
+
+.social_list li {
+  @apply mr-3;
+}
+
+.social_list svg {
+  @apply text-2xl font-bold  hover:text-yellow-400 cursor-pointer;
+}
+
+.text {
+  @apply text-xl text-center mt-3;
+}
+
+.text span {
+  @apply text-yellow-400 font-bold ; 
+}

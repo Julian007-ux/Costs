@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.min_heigth{
+    @apply min-h-[75%];
+}
+
+.start{
+    @apply justify-start;
+}
+
+.column{
+    @apply flex-col justify-start;
+}
