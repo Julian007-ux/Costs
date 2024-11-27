@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+.Conteiner{
+    @apply w-[450px] mx-auto my-0 p-12;
+}
+
+.Conteiner h1{
+    @apply text-3xl font-bold mt-3 my-8;
+}
+
+.Conteiner p{
+    @apply text-zinc-500;
+}
+
+.Conteiner input{
+    @apply border-solid border-black border-[1px];
+}

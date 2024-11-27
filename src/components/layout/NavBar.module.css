@@ -15,5 +15,5 @@
 }
 
 .item a{
-    @apply hover:text-yellow-400;
+    @apply duration-500 hover:text-yellow-400;
 }

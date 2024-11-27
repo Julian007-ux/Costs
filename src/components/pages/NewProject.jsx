@@ -1,8 +1,13 @@
+import ProjectFrom from '../Projects/ProjectFrom';
+import styles from './NewProject.module.css';
+
 const NewProject = () =>{
     return(
-        <>
-            <h1 className={'text-3xl font-bold mt-3'} >Projetos</h1>
-        </>
+        <div className={styles.Conteiner} >
+            <h1>Criar Projetos</h1>
+            <p>Crie os seus projetos para depois adicionar os serviços</p>
+            <ProjectFrom/>
+        </div>
     )
 }
 

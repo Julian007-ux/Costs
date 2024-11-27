@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Conteiner{
+    @apply flex flex-col text-center w-screen;
+}
+
+.Conteiner h1{
+    @apply font-bold text-4xl mt-16 mb-5;
+}
+
+.Conteiner h1 span{
+    @apply text-yellow-400 p-1;
+}
+
+.Conteiner img{
+    @apply w-[350px] h-80 m-auto;
+}
+
+.Conteiner p{
+    @apply text-zinc-500;
+}
