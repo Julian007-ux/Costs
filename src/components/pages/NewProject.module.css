@@ -7,7 +7,7 @@
 }
 
 .Conteiner h1{
-    @apply text-3xl font-bold mt-3 my-8;
+    @apply text-3xl font-bold mt-3 my-4;
 }
 
 .Conteiner p{

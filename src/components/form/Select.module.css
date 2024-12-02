@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+.Select_control{
+    @apply w-[450px] flex flex-col mb-5 ;
+}
+
+.Select_control label{
+    @apply font-bold my-2 text-xl;
+}
+
+.Select_control select{ 
+    @apply p-2 w-full bg-white ;
+}

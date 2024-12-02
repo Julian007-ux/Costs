@@ -1,18 +1,15 @@
+import styles from './ProjectForm.module.css';
+import Input from '../form/Input';
+import Select from '../form/Select';
+
 const ProjecForm = () => {
     return (
         <div>
-            <form>
-                <div>
-                    <input type="text" placeholder="Nome do projeto" />
-                </div>
-                <div>
-                    <input type="number" placeholder="Informe o orçamento total do projeto" />
-                </div>
-                <div>
-                    <select name="ProjetoType" id="ProjectType">
-                        <option disabled>Selecione o tipo</option>
-                    </select>
-                </div>
+            <form className={styles.Form_control} >
+                <Input name="p_name" text="Nome do Projeto" placeholder="Insira o nome do projeto" type="text"/>
+                <Input name="p_orcamento" text="Orçamento do Projeto" placeholder="Insira o orçamento do projeto" type="number"/>
+                <Select name="p_orcamento" text="Selecione a Categoria"/>
+                
                 <div>
                     <input type="submit" value="Criar Projeto"/>
                 </div>

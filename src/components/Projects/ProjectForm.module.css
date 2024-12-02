@@ -4,5 +4,9 @@
 
 
 .Conteiner{
-    @apply w-[450px] text-center;
+    @apply w-[450px];
+}
+
+.Form_control{
+    @apply mx-0 my-2;
 }
