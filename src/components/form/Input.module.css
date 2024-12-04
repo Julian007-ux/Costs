@@ -12,5 +12,5 @@
 }
 
 .Input_control input{ 
-    @apply p-2 w-full;
+    @apply p-2 w-full border-none;
 }

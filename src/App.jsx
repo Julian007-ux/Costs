@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-/* Importando as páginas principais da aplicação */
+/* Importando as páginas da aplicação */
 import Home from "./components/pages/Home";
 import Company from "./components/pages/Company";
 import Contact from "./components/pages/Contact";
@@ -9,6 +9,8 @@ import Project from "./components/pages/Project";
 
 /* Conteiner que encapsula as url */
 import Conteiner from "./components/layout/Conteiner";
+
+/* Importando componentes e menu e rodapé */
 import NavBar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 

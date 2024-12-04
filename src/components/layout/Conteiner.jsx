@@ -4,7 +4,7 @@ const Conteiner = (props) => {
     <div
       className={`${
         styles[props.custumClass]
-      } w-[1200px] flex justify-between my-0 mx-auto flex-wrap`}
+      } w-[100%] flex justify-between my-0 mx-auto flex-wrap`}
     >
       {props.children}
     </div>

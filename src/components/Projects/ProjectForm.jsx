@@ -10,7 +10,7 @@ const ProjecForm = () => {
                 <Input name="p_orcamento" text="Orçamento do Projeto" placeholder="Insira o orçamento do projeto" type="number"/>
                 <Select name="p_orcamento" text="Selecione a Categoria"/>
                 
-                <div>
+                <div className={styles.submit} >
                     <input type="submit" value="Criar Projeto"/>
                 </div>
             </form>

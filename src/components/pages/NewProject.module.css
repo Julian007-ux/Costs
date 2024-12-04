@@ -13,7 +13,3 @@
 .Conteiner p{
     @apply text-zinc-500;
 }
-
-.Conteiner input{
-    @apply border-solid border-black border-[1px];
-}
