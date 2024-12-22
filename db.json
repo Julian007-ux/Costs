@@ -1,5 +1,17 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "id": "dfdd",
+      "name": "Gala final",
+      "orcamento": "1500000",
+      "category": {
+        "id": "6",
+        "name": "Associação dos Estudantes"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
   "categories": [
     {
       "id": 1,
