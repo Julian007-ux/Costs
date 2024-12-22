@@ -10,7 +10,3 @@
 .Form_control{
     @apply mx-0 my-2;
 }
-
-.submit input{
-    @apply text-center p-3 bg-black text-white;
-}

@@ -1,0 +1,25 @@
+{
+  "projects": [],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 2,
+      "name": "Recuros Humanos"
+    },
+    {
+      "id": 3,
+      "name": "Finanças"
+    },
+    {
+      "id": 5,
+      "name": "Direção Geral"
+    },
+    {
+      "id": 6,
+      "name": "Associação dos Estudantes"
+    }
+  ]
+}

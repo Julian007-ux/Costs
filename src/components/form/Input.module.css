@@ -4,7 +4,7 @@
 
 
 .Input_control{
-    @apply w-[450px] flex flex-col mb-5 ;
+    @apply w-[450px] flex flex-col mb-5  ;
 }
 
 .Input_control label{
